@@ -9,16 +9,23 @@ margin-top: 80px;
 
     export const Title = styled.h1`
     
-    font-size: 50px;
+    
     color: black;
     font-family: sans-serif;
-    justify-content: center;
+    
     position:absolute;
-    margin-bottom: 25px;
-    text-align-last: center;
-    margin-top: 0px;
+    @media (min-width: 600px){
+      margin-bottom: 25px;
+      margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 50px;
+    justify-content: center;
+    text-align-last: center;
+    }
+    
+    
+    
     
     `;
     export const Vid = styled.div`

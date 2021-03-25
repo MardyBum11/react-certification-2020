@@ -4,18 +4,19 @@ import ToggleSwitch from './components/toggleswitch.js';
 import Menu from './components/menu.js';
 import  Login from './components/login.js';
 
+
 function Header() {
     return (
 
-        <div>
-            <Head>
+        
+            <Head >
             <Menu></Menu>
             <Input  placeholder="Search..."   />
             <ToggleSwitch></ToggleSwitch>
             <Login></Login>
             </Head>
 
-        </div>
+        
 
     )
 };

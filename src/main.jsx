@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from './header.jsx';
 import Body from './body.jsx';
+import './css/HomeView.css';
 
-function HomeView(){
+function Main(){
     return(
-        <div>
+        <div className="container">
             <div>
                 <Header/>
             </div>

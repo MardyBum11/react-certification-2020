@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
-    "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.1",
@@ -15,7 +14,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -34,9 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/preset-react": "^7.12.13",
-    "jest": "^26.6.3"
   }
 }
