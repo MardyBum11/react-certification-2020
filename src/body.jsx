@@ -20,7 +20,7 @@ function Body() {
 React.useEffect(() => {
   const fetch = require("node-fetch");
  
-    fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyAagMd1O7wZpIZF3qw6MFbDKe9PbRgxwpA&part=snippet&maxResults=20&q=${valueFinal}`)
+    fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyAagMd1O7wZpIZF3qw6MFbDKe9PbRgxwpA&part=snippet&maxResults=1&q=${valueFinal}`)
     .then((response) => response.json())
     .then((json) => {
       setSearchResults(json.items) ;

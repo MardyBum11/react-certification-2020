@@ -5,7 +5,7 @@
 const mockedUser = {
     id: '123',
     name: 'Wizeline',
-    avatarUrl: 'https://media.glassdoor.com/sqll/868055/wizeline-squarelogo-1473976610815.png',
+    avatarUrl: 'https://images.app.goo.gl/JBVJnQbqAbZQdRMP6',
   };
   
   export default async function LoginApi(username, password) {   
@@ -13,7 +13,7 @@ const mockedUser = {
     return new Promise((resolve, reject) => {
         
       setTimeout(() => {
-        if (username === 'wizeline' && password === 'Rocks') {
+        if (username === 'videouser' && password === '123') {
             console.log(mockedUser);
                      
           return resolve(mockedUser);

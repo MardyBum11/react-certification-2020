@@ -35,12 +35,12 @@ body,div,h1, #root {
 
 function Main(){
 
-    const [valueFinal, setValueFinal] = useState('wizeline');
+    const [valueFinal, setValueFinal] = useState('Cake recipe');
     const [titles, setTitles] = useState({title: "", description: "", videoId: "", url: ""});
     const [videoList, setVideoList] = useState([]);
     const [favoriteItems, setFavoriteItems] = useState([]);
     const [labelState, setLabelState] = useState('Agregar a favoritos');
-    const [avatarUrl, setAvatarUrl] = useState('https://img.icons8.com/cotton/64/000000/user-female--v6.png');
+    const [avatarUrl, setAvatarUrl] = useState('https://img.icons8.com/ios-glyphs/80/000000/login-as-user.png');
     const [state, dispatch] = useReducer(reducer, {
         isDark: false
     }); 

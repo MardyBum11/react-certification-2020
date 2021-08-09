@@ -6,12 +6,16 @@ export const DropDownContainer = styled.div`
   margin: 0 auto;
   
 `;
+
+
 export const CircleL = styled.input`
+
+background-size: cover;
 float: right;
 right: 90px;
 position:absolute;
 z-index: 100001 ;
-background: white;
+background-color: lightgray;
 background-image: ${props => `url(${props.icon}) `};
 
 

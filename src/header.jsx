@@ -9,7 +9,7 @@ import { useHistory } from "react-router-dom";
 
 function Header() {
         
-    const [value, setValue] = useState("wizeline");
+    const [value, setValue] = useState("Cake recipe");
     const { setValueFinal } = useContext(SearchContext);
     
     const history = useHistory();
